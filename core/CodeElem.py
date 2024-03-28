@@ -62,4 +62,4 @@ def ejecutable(matG,z):
     elem = codigo_lineal_print(matrizO)
     k = parametro_k(elem,z)
     el = elementosos(elem)
-    return {"codigos": elem, "n": len(matG), "k": k, "elementos": el}
+    return {"codigos": elem, "n": len(matG), "k": k}
