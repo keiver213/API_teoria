@@ -10,4 +10,4 @@ async def root():
 
 @app.post("/lineal_code")
 async def codes(matriz: Matriz):
-    return {ejecutable(matriz.MatrisG, matriz.z)}
+    return ejecutable(matriz.MatrisG, matriz.z)
